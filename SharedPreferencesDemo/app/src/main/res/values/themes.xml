@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SharedPreferencesDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 其他属性（如颜色）保持默认即可 -->
+    </style>
+</resources>
