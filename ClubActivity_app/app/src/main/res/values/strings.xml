@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ClubActivity_app</string>
+    <string name="create_activity_title">创建新活动</string>
+    <string name="edit_activity_title">编辑活动</string>
+    <string name="create_activity">创建活动</string>
+    <string name="save_changes">保存修改</string>
+</resources>

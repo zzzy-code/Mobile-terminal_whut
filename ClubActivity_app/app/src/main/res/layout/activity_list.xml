@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 顶部标题栏 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/purple_700"
+            android:orientation="horizontal"
+            android:paddingHorizontal="16dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="活动列表"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="退出登录"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rounded_button"
+                android:drawablePadding="8dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"/>
+        </LinearLayout>
+
+        <!-- 活动列表 -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+        <!-- 新建按钮 -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:src="@android:drawable/ic_menu_add"
+            app:backgroundTint="@color/purple_500"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
