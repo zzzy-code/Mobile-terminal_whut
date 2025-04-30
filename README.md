@@ -113,6 +113,4 @@ Mobile-terminal_whut/
 ---
 
 ## 📜 开源协议
-MIT License © 2023 zzzy-code
-
-![https://mit-license.org/](https://img.shields.io/badge/License-MIT-blue.svg)
+[https://img.shields.io/badge/License-MIT-blue.svg](https://mit-license.org/) 
