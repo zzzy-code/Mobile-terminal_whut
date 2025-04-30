@@ -1,8 +1,8 @@
 # 📱 社团活动信息管理应用  
 一个用于高校社团的活动查询与报名 Android 应用
 
-[![Platform](https://img.shields.io/badge/platform-Android-green.svg)]
-[![Build](https://img.shields.io/badge/build-success-brightgreen.svg)]
+![Platform](https://img.shields.io/badge/platform-Android-green.svg)
+![Build](https://img.shields.io/badge/build-success-brightgreen.svg)
 
 > 支持活动发布、在线报名、用户登录等功能，结合 SQLite 和 Data Binding 构建现代化校园社交管理工具。
 
