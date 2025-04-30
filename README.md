@@ -109,8 +109,3 @@ Mobile-terminal_whut/
 - 遵循 [Android 官方编码规范](https://developer.android.com/kotlin/common-patterns)
 - 数据库改动需更新相关文档
 - 使用清晰的注释说明
-
----
-
-## 📜 开源协议
-[https://img.shields.io/badge/License-MIT-blue.svg](https://mit-license.org/) 
