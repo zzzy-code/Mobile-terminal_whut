@@ -149,6 +149,6 @@ fun logout() {
 
 ## 📄 License
 
-Apache 2.0 © 2023 [开发者名称]
+本项目基于 [MIT License](https://mit-license.org/) 开源，欢迎自由使用与修改。
 
 ---
