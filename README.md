@@ -94,18 +94,3 @@ Mobile-terminal_whut/
 ├── SQLite-Basic/              # 基础版SQLite实验
 └── SharedPreferences/         # 键值对存储实验
 ```
-
----
-
-## 🤝 参与贡献
-
-1. Fork 本仓库
-2. 创建新分支 (`git checkout -b feature/your-feature`)
-3. 提交修改 (`git commit -m 'Add some feature'`)
-4. 推送分支 (`git push origin feature/your-feature`)
-5. 发起 Pull Request
-
-**代码规范**
-- 遵循 [Android 官方编码规范](https://developer.android.com/kotlin/common-patterns)
-- 数据库改动需更新相关文档
-- 使用清晰的注释说明
